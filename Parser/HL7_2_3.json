@@ -1,0 +1,192 @@
+{ 
+  "messageTypes":[
+      {
+        "title":"ORM^O01",
+        "segmentList":[{
+            "segmentTitle":"MSH",
+            "segmentOptionalityType":"R",
+            "segmentRepeteability":"N"
+          },{
+            "segmentTitle":"NTE",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"Y"
+          },{
+            "segmentTitle":"PID",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },{
+            "segmentTitle":"PD1",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"NTE",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"Y"
+          },
+          {
+            "segmentTitle":"PV1",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"PV2",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"IN1",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"IN2",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"IN3",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"GT1",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"AL1",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"Y"
+          },
+          {
+            "segmentTitle":"ORC",
+            "segmentOptionalityType":"R",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"OBR",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"RQD",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"RQ1",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"RXO",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"ODS",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"ODT",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"NTE",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },
+          {
+            "segmentTitle":"FT1",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"Y"
+          },
+          {
+            "segmentTitle":"CTI",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"Y"
+          },
+          {
+            "segmentTitle":"BLG",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          }
+
+        ]
+
+      }
+  ], 
+  "globalFields":[
+      {  
+      "title": "MSH", 
+      "segments": ["Encoding Characters", "Sending Application", "Sending Facility","Receiving Application", "Receiving Facility", "Date/Time of Message", "Security", "Message Type", "Message Control ID", "Processing ID", "Version ID", "Sequence Number", "Continuation Pointer", "Accept Acknowledgement Type", "Application Acknowledgement Typer", "Country Code", "Character Set", "Principal Language of Message"]
+      },
+      {
+      "title": "NTE",
+      "segments": ["Set ID-NTE", "Source of Comment", "Comment", "Comment Type"]   
+      },
+      {
+      "title": "PID",
+      "segments": ["SET ID-PID","Patient ID","Patient Identifier List","Alternate Patient ID", "Patient Name", "Mothers Maiden Name", "Date/Time of Birth","Sex", "Patien Alias", "Race", "Patient Address", "County Code", "Phone Number-Home", "Phone Number-Business","Primary Language","Marital Status","Religion", "Patient Account Number", "SSN Number-Patient", "SSN Number-Patient","Drivers License Number-Patient","Mothers Identifier","Ethnic Group","Birth Place","Multiple Birth Indicator","Birth Order","Citizenship","Veterams Military Status","Nationality","Patient Death Date and Time","Patient Death Indicator"]  
+      },
+      {
+      "title":"PD1",
+      "segments":["Living Dependency","Living Arrangement","Patiten Primary Facility","Patient Primary Care Provider Name", "Student Indicator","Handicap","Living Will", "Organ Donor","Separate Bill", "Duplicate Patient","Publicity Code","Protection Indicator"]   
+      },
+      {
+      "title": "ORC",
+      "segments": ["Order Control", "Place Order Number", "Filler Order Number","Placer Group Number","Order Status","Response Flag","Quantity/Timing","Parent Order","Date/Time of Transaction","Entered By", "Verified By", "Ordering Provide", "Enteres Location", "Call Back Phone Number", "Order Effective Date/Time", "Order Control Code Reason", "Entering Organization", "Entering Device", "Action By", "Advanced Beneficiary Notice Code", "Ordering Facility Name", "Ordering Facility Address", "Ordering Facility Phone Number", "Ordering Provider Address"]   
+      },
+      {
+        "title":"CTI",
+        "segments":["Sponsor Study ID", "Study Phase Identifier", "Study Scheduled Time Point"]  
+      },
+      {
+        "title":"BLG",
+        "segments":["When to Charge", "Charge Type", "Account ID"]
+      },
+      {
+        "title":"MSA",
+        "segments":["Acknowledgment Code","Message Control ID", "Text Message", "Expected Sequence Number", "Delayed Acknowledgement Type", "Error Condition"]
+      },
+      {
+        "title":"ERR",
+        "segments":["Error Code and Location"]
+      },
+      {
+        "title":"NK1",
+        "segments":["Set ID-NK1","NK Name", "Relationship", "Address", "Phone Numbe","Business Phone Number", "Contact Role", "Start Date", "End Date", "Next of Kin/Associated Parties Job Title", "Next of Kin/Associated Parties Job Dode/Class", "Next of Kin/Associated Parties Employee Number", "Organization Name-NK1", "Marital Status", "Sex", "Date/Time of Birth", "Living Dependency", "Ambulatory Status", "Citinzenship", "Primary Language", "Living Arrangement", "Publicity Code", "Protection Indicator", "Student Indicator", "Religion", "Mothers Maiden Name", "Nationality", "Ethnic Group", "Contact Reason", "Contact Persons Name", "Contact Persons Telephone Number", "Contact Person Address", "Next of Kin/Associated Partys Identifiers", "Job Status", "Race", "Handicap","Contact Person Social Security Number"]
+      },
+      {
+        "title":"PV1",
+        "segments":["Set ID-PV1", "Patient Class", "Assigned Patient Location", "Admission Type", "Preadmit Number", "Prior Patient Location", "Attending Doctor","Reffering Doctor","Consulting Doctor", "Hospital Service", "Temporary Location", "Preadmit Test Indicator", "Re-admission Indicator", "Admit Source", "Ambulatory Status", "VIP Indicator", "Admitting Doctor", "Patient Type", "Visit Number", "Financial Class", "Charge Price Indicator", "Courtesy Code", "Credit Rating", "Contract Code", "Contract Effective Date", "Contract Amount", "Contract Period", "Interest Code", "Transfer to Bad Debt Code", "Transfer to Bad Debt Date", "Bad Debt Agency Code", "Bad Debt Trnasfer Amount", "Bad Debt Recovery Amount", "Delete Account Indicator", "Delete Account Indicator", "Delete Account Date", "Discharge Disposition", "Discharged to Location", "Diet Type", "Serving Facility", "Bed Status", "Account Status", "Pending Location", "Prior Temporary Location", "Admit Date/Time", "Discharge Date/Time", "Current Patient Balance", "Total Charges", "Total Adjustments", "Total Payments", "Alternate Visit ID", "Visit Indicator", "Other Healthcare Provider"]
+      },
+      {
+      "title":"PV2",
+      "segments":["Prior Pending Location", "Accomodation Code", "Admit Reason", "Tansfer Reason", "Patient Valuables", "Patient Valueables Location", "Visit User Code", "Expected Admit Date/Time", "Expected Discharge Date/Time", "Estimated Length of Impatient Stay", "Actual Length of Impatient Stay", "Visit Description", "Referral Source Code", "Previous Service Date", "Employment Illness Related Indicator", "Purge Status Code", "Purge Status Date", "Special Program Code", "Retention Indicator", "Expected Number of Insurance Plans", "Visit Publicity Code", "Visit Protection Indicator", "Clinica Organization Name", "Patien Status Code", "Visit Priority Code", "Previous Treatment Date", "Expected Discharge Disposition", "Signature on File Date", "First Similar Ilness Date", "Patient Charge Adjustment Code", "Recurring Service Code", "Billing Media Code", "Expected Surgery Date & Time", "Military Partnership Code", "Military Non-Availability Code", "Newborn Baby Indicator", "Baby Detained Indicator"]
+      },
+      {
+      "title": "OBR",
+      "segments": ["Set ID-OBR", "Place Order Number","Filler Order Number", "Universal Service ID", "Priority-OBR", "Requested Date/Time", "Observation Date/Time", "Observation End Date/Time","Collection Volume*", "Collector Identifier*", "Specimen Action Code*", "Danger Code", "Relevant Clinical Info", "Specimen Received Date/Time", "Specimen Source", "Ordering Provider", "Order Callback Phone Number", "Place Field 1", "Place Field 2", "Filler Field 1+", "Filler Field 2+", "Resultrs Rpt/Status Chng-Date/Time+", "Charge to Practice+", "Diagnostic Serv Sect ID", "Result Status +", "Parent Result+", "Quantity/Timing", "Result Copies To", "Parent Number", "Transportation Mode", "Reason for Study", "Principal Result Interpreter+", "Assistant Result Interpreter+", "Technician+", "Transcriptionist+", "Scheduled Date/Time", "Number of Sample Container", "Transport Logistics of Collected Sample*", "Collectors Comment*", "Transport Arranger", "Escort Required","Planned Patient Transport Comment","Procedure Code","Procedure Code Modifier"]
+      },
+      {
+      "title":"DSC",
+      "segments":["Continuation Pointer"]
+      },
+      {
+      "title":"MSA",
+      "segments":["Acknowledgement Code", "Message Control ID", "Text Message", "Expected Sequence Number", "Delayer Acknowledgement Type", "Error Condition"]
+      },
+      {
+      "title":"OBX",
+      "segments":["Set ID-OBX","Value Type", "Observation Identifier", "Observation Sub-ID", "Observation Value", "Units", "References Range", "Abnormal Flags", "Probability", "Nature of Abnormal Test", "Observation Result Status", "Date Last Obs Normal Values", "User Definer Access Checks", "Date/Time of The Observation", "Producers ID", "Responsible Observer", "Obseravtion Method"]
+      },
+      {
+      "title":"DG1",
+      "segments":["Set ID - DG1","Diagnosis Coding Method","Diagnosis Code - DG1", "Diagnosis Description", "Diagnosis Date/Time", "Diagnosis Type", "Major Diagnostic Category", "Diagnostic Related Group", "DRG Approval Indicator","DRG Grouper Review Code", "Outlier Type", "Outlier Days","Outlier Cost", "Grouper Version And Type", "Diagnosis Priority","Diagnosing Clinician","Diagnosis Classification", "Confidential Indicator","Attesation Date/Time", "Diagnosis Identefier","Diagnosis Action Code"]
+      }
+  ]
+}
