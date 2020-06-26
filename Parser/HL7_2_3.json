@@ -2383,6 +2383,344 @@
                     "fieldTable": "0108"
                 }
             ]
+        },
+        {
+            "title": "ACC",
+            "fields": [
+                {
+                    "fieldTitle": "Accident Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Accident Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0050"
+                },
+                {
+                    "fieldTitle": "Accident Location",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Auto Accident State",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Accident Job Related Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Accident Death Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                }
+            ]
+        },
+        {
+            "title": "UB1",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - UB1",
+                    "dataType": "SI",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Blood Deductible",
+                    "dataType": "NM",
+                    "fieldOptionality": "B",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Blood Furnished Pints Of",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Blood Replaced Pints",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Blood Not Replaced Pints",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Co Insurance Days",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Condition Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "5",
+                    "fieldTable": "0043"
+                },
+                {
+                    "fieldTitle": "Covered Days",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Non Covered Days",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Value Amount & Code",
+                    "dataType": "CM_UVC",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "8",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Number Of Grace Days",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Spec Program Indicators",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "PSRO/UR Approval Indicator",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "PSRO/UR Approved Stay Fm",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "PSRO/UR Approved Stay To",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Occurrence",
+                    "dataType": "CM_OCD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "5",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Occurrence Span",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Occur Span Start Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Occur Span End Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "UB 82 Locator 2",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "UB 82 Locator 9",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "UB 82 Locator 27",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "UB 82 Locator 45",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+
+            ]
+        },
+        {
+            "title": "UB2",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - UB2",
+                    "dataType": "SI",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Co Insurance Days",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Condition Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "7",
+                    "fieldTable": "0043"
+                },
+                {
+                    "fieldTitle": "Covered Days",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Non Covered Days",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Value Amount & Code",
+                    "dataType": "CM_UVC",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "12",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Occurrence Code & Date",
+                    "dataType": "CM_OCD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "8",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Occurrence Span Code/Dates",
+                    "dataType": "CM_OSP",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "2",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "UB92 Locator 2",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "2",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "UB92 Locator 11",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "2",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "UB92 Locator 31",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Document Control Number",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "3",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "UB92 Locator 49",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "23",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "UB92 Locator 56",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "5",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "UB92 Locator 57",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "UB92 Locator 78",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "2",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Special Visit Count",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+            ]
         }
     ],
 
