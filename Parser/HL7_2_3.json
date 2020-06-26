@@ -1131,6 +1131,639 @@
                     "fieldTable": "-"
                 }
             ]
+        },
+        {
+            "title": "NK1",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - Next of Kin",
+                    "dataType": "SI",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "NK Name",
+                    "dataType": "XPN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Relationship",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0063"
+                },
+                {
+                    "fieldTitle": "Address",
+                    "dataType": "XAD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Phone Number",
+                    "dataType": "XTN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0102"
+                },
+                {
+                    "fieldTitle": "Business Phone Number",
+                    "dataType": "XTN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Contact Role",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0131"
+                },
+                {
+                    "fieldTitle": "Start Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "End Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Next of Kin/Associated Parties Job Title",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Next of Kin Job/Associated Parties Code/Class",
+                    "dataType": "JCC",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Next of Kin/Associated Parties Employee Number",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Organization Name",
+                    "dataType": "XON",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Marital Status",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0002"
+                },
+                {
+                    "fieldTitle": "Sex",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0001"
+                },
+                {
+                    "fieldTitle": "Date of Birth",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Living Dependency",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0223"
+                },
+                {
+                    "fieldTitle": "Ambulatory Status",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0009"
+                },
+                {
+                    "fieldTitle": "Citizenship",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0171"
+                },
+                {
+                    "fieldTitle": "Primary Language",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0296"
+                },
+                {
+                    "fieldTitle": "Living Arrangement",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0220"
+                },
+                {
+                    "fieldTitle": "Publicity Indicator",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0215"
+                },
+                {
+                    "fieldTitle": "Protection Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Student Indicator",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0231"
+                },
+                {
+                    "fieldTitle": "Religion",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0006"
+                },
+                {
+                    "fieldTitle": "Mother s Maiden Name",
+                    "dataType": "XPN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Nationality Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0212"
+                },
+                {
+                    "fieldTitle": "Ethnic Group",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0189"
+                },
+                {
+                    "fieldTitle": "Contact Reason",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0222"
+                },
+                {
+                    "fieldTitle": "Contact Person's Name",
+                    "dataType": "XPN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Contact Person s Telephone Number",
+                    "dataType": "XTN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Contact Person s Address",
+                    "dataType": "XAD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Next of kin/associated party identifiers",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Job Status",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0311"
+                },
+                {
+                    "fieldTitle": "Race",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0005"
+                },
+                {
+                    "fieldTitle": "Handicap",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0295"
+                },
+                {
+                    "fieldTitle": "Contact Person Social Security Number",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "PV1",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - Patient Visit",
+                    "dataType": "SI",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Patient Class",
+                    "dataType": "ID",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0004"
+                },
+                {
+                    "fieldTitle": "Assigned Patient Location",
+                    "dataType": "PL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Admission Type",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0007"
+                },
+                {
+                    "fieldTitle": "Preadmit Number",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Prior Patient Location",
+                    "dataType": "PL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Attending Doctor",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0010"
+                },
+                {
+                    "fieldTitle": "Referring Doctor",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0010"
+                },
+                {
+                    "fieldTitle": "Consulting Doctor",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0010"
+                },
+                {
+                    "fieldTitle": "Hospital Service",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0069"
+                },
+                {
+                    "fieldTitle": "Temporary Location",
+                    "dataType": "PL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Preadmit Test Indicator",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0087"
+                },
+                {
+                    "fieldTitle": "Readmission Indicator",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0092"
+                },
+                {
+                    "fieldTitle": "Admit Sources",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0023"
+                },
+                {
+                    "fieldTitle": "Ambulatory Status",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0009"
+                },
+                {
+                    "fieldTitle": "VIP Indicator",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0099"
+                },
+                {
+                    "fieldTitle": "Admitting Doctor",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Patient Type",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0018"
+                },
+                {
+                    "fieldTitle": "Visit Number",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Financial Class",
+                    "dataType": "FC",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Charge Price Indicator",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0032"
+                },
+                {
+                    "fieldTitle": "Courtesy Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0045"
+                },
+                {
+                    "fieldTitle": "Credit Rating",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0046"
+                },
+                {
+                    "fieldTitle": "Contract Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0044"
+                },
+                {
+                    "fieldTitle": "Contract Effective Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Contract Amount",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Contract Period",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Interest Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0073"
+                },
+                {
+                    "fieldTitle": "Transfer to Bad Debt Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0110"
+                },
+                {
+                    "fieldTitle": "Transfer to Bad Debt Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Bad Debt Agency Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0021"
+                },
+                {
+                    "fieldTitle": "Bad Debt Transfer Amount",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Bad Debt Recovery Amount",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Delete Account Indicator",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0111"
+                },
+                {
+                    "fieldTitle": "Delete Account Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Discharge Disposition",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0112"
+                },
+                {
+                    "fieldTitle": "Discharged to Location",
+                    "dataType": "CM_DLD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Diet Type",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0114"
+                },
+                {
+                    "fieldTitle": "Servicing Facility",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0115"
+                },
+                {
+                    "fieldTitle": "Bed Status",
+                    "dataType": "IS",
+                    "fieldOptionality": "B",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0116"
+                },
+                {
+                    "fieldTitle": "Account Status",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0117"
+                },
+                {
+                    "fieldTitle": "Pending Location",
+                    "dataType": "PL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Prior Temporary Location",
+                    "dataType": "PL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Admit Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Discharge Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Current Patient Balance",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Total Charges",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Total Adjustments",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Total Payments",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Alternate Visit ID",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Visit Indicator",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0326"
+                },
+                {
+                    "fieldTitle": "Other Healthcare Provider",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0010"
+                }
+            ]
         }
     ],
 
