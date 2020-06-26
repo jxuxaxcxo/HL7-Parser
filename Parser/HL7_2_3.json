@@ -603,6 +603,233 @@
               "fieldTable":"-"
             }
           ]
+        },
+        {
+          "title":"PD1",
+          "fields":[
+            {
+              "fieldTitle":"Living Dependency",
+              "dataType":"IS",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"Y",
+              "fieldTable":"0223"
+            },
+            {
+              "fieldTitle":"Living Arrangement",
+              "dataType":"IS",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"0220"
+            },
+            {
+              "fieldTitle":"Patient Primary Facility",
+              "dataType":"XON",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"Y",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Patient Primary Care Provider Name & ID No",
+              "dataType":"XCN",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"Y",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Student Indicator",
+              "dataType":"IS",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"0231"
+            },
+            {
+              "fieldTitle":"Handicap",
+              "dataType":"IS",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"0295"
+            },
+            {
+              "fieldTitle":"Living Will",
+              "dataType":"IS",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"0315"
+            },
+            {
+              "fieldTitle":"Organ Donor",
+              "dataType":"IS",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"0316"
+            },
+            {
+              "fieldTitle":"Separate Bill",
+              "dataType":"ID",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"0136"
+            },
+            {
+              "fieldTitle":"Duplicate Patient",
+              "dataType":"CX",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"Y",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Publicity Indicator",
+              "dataType":"CE",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"0215"
+            },
+            {
+              "fieldTitle":"Protection Indicator",
+              "dataType":"ID",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"0136"
+            }
+          ]
+        },
+        {
+          "title":"ORC",
+          "fields":[
+            {
+              "fieldTitle":"Order Control",
+              "dataType":"ID",
+              "fieldOptionality":"R",
+              "fieldRepeteability":"N",
+              "fieldTable":"0119"
+            },
+            {
+              "fieldTitle":"Placer Order Number",
+              "dataType":"EI",
+              "fieldOptionality":"C",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Filler Order Number",
+              "dataType":"EI",
+              "fieldOptionality":"C",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Placer Group Number",
+              "dataType":"EI",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Order Status",
+              "dataType":"ID",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"0038"
+            },
+            {
+              "fieldTitle":"Response Flag",
+              "dataType":"ID",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"0121"
+            },
+            {
+              "fieldTitle":" Quantity/Timing",
+              "dataType":"TQ",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Parent Order",
+              "dataType":"CM_EIP",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Date/Time of Transaction",
+              "dataType":"TS",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Entered By",
+              "dataType":"XCN",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Verified By",
+              "dataType":"XCN",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Ordering Provider",
+              "dataType":"XCN",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Enterer's Location",
+              "dataType":"PL",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Call Back Phone Number",
+              "dataType":"XTN",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"2",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Order Effective Date/Time",
+              "dataType":"TS",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Order Control Code Reason",
+              "dataType":"CE",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Entering Organization",
+              "dataType":"CE",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Entering Device",
+              "dataType":"CE",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Action By",
+              "dataType":"XCN",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            }
+          ]
         }
     ]
 }
