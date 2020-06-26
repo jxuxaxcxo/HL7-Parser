@@ -1764,6 +1764,625 @@
                     "fieldTable": "0010"
                 }
             ]
+        },
+        {
+            "title": "DSC",
+            "fields": [
+                {
+                    "fieldTitle": "Continuation Pointer",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "MSA",
+            "fields": [
+                {
+                    "fieldTitle": "Acknowledgement code",
+                    "dataType": "ID",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0008"
+                },
+                {
+                    "fieldTitle": "Message Control ID",
+                    "dataType": "ST",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Text Message",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Expected Sequence Number",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Delayed Acknowledgement Type",
+                    "dataType": "ID",
+                    "fieldOptionality": "B",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0102"
+                },
+                {
+                    "fieldTitle": "Error Condition",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+            ]
+        },
+        {
+            "title": "OBX",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - OBX",
+                    "dataType": "SI",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Value Type",
+                    "dataType": "ID",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0125"
+                },
+                {
+                    "fieldTitle": "Observation Identifier",
+                    "dataType": "CE",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Observation Sub-ID",
+                    "dataType": "ST",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Observation Value",
+                    "dataType": "VARIES",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Units",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "References Range",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Abnormal Flags",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "5",
+                    "fieldTable": "0078"
+                },
+                {
+                    "fieldTitle": "Probability",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Nature of Abnormal Test",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0080"
+                },
+                {
+                    "fieldTitle": "Observ Result Status",
+                    "dataType": "ID",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0085"
+                },
+                {
+                    "fieldTitle": "Date Last Obs Normal Values",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "User Defined Access Checks",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Date/Time of the Observation",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Producer's ID",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Responsible Observer",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Observation Method",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+            ]
+        },
+        {
+            "title": "RQD",
+            "fields": [
+                {
+                    "fieldTitle": "Requisition Line Number",
+                    "dataType": "SI",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Item Code - Internal",
+                    "dataType": "CE",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Item Code - External",
+                    "dataType": "CE",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Hospital Item Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requisition Quantity",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requisition Unit of Measure",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Department Cost Center",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0319"
+                },
+                {
+                    "fieldTitle": "Item Natural Account Code",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0320"
+                },
+                {
+                    "fieldTitle": "Deliver To ID",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Date Needed",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+            ]
+        },
+        {
+            "title": "RQ1",
+            "fields": [
+                {
+                    "fieldTitle": "Anticipated Price",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Manufactured ID",
+                    "dataType": "CE",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Manufacturer's Catalog",
+                    "dataType": "ST",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Vendor ID",
+                    "dataType": "CE",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Vendor Catalog",
+                    "dataType": "ST",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Taxable",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Substitute Allowed",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                }               
+            ]
+        },
+        {
+            "title": "RXO",
+            "fields": [
+                {
+                    "fieldTitle": "Requested Give Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requested Give Amount - Minimum",
+                    "dataType": "NM",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requested Give Amount - Maximum",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requested Give Units",
+                    "dataType": "CE",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requested Dosage Form",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Provider's Pharmacy Instructions",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Provider's Administration Instructions",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Deliver To Location",
+                    "dataType": "LA1",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Allow Substitutions",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0161"
+                },
+                {
+                    "fieldTitle": "Requested Dispense Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requested Dispense Amount",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requested Dispense Units",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Number of Refills",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Ordering Provider's DEA Number",
+                    "dataType": "XCN",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Pharmacist/Treatment Supplier's Verifier ID",
+                    "dataType": "XCN",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Needs Human Review",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Requested Give Per",
+                    "dataType": "ST",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requested Give Strength",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requested Give Strength Units",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Indication",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requested Give Rate Amount",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requested Give Rate Units",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+            ]
+        },
+        {
+            "title": "ODS",
+            "fields": [
+                {
+                    "fieldTitle": "Type",
+                    "dataType": "ID",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0159"
+                },
+                {
+                    "fieldTitle": "Service Period",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "10",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Diet, Supplement, or Preference Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "20",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Text Instruction",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "2",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "ODT",
+            "fields": [
+                {
+                    "fieldTitle": "Tray Type",
+                    "dataType": "CE",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0160"
+                },
+                {
+                    "fieldTitle": "Service Period",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "10",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Text Instruction",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "QRD",
+            "fields": [
+                {
+                    "fieldTitle": "Query Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Query Format Code",
+                    "dataType": "ID",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0106"
+                },
+                {
+                    "fieldTitle": "Query Priority",
+                    "dataType": "ID",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0091"
+                },
+                {
+                    "fieldTitle": "Query ID",
+                    "dataType": "ST",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Deferred Response Type",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0107"
+                },
+                {
+                    "fieldTitle": "Deferred Response Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Quantity Limited Request",
+                    "dataType": "CQ",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Who Subject Filter",
+                    "dataType": "XCN",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "What Subject Filter",
+                    "dataType": "CE",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0048"
+                },
+                {
+                    "fieldTitle": "What Department Data Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "What Data Code Value Qualifier",
+                    "dataType": "CM_VR",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Query Results Level",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0108"
+                }
+            ]
         }
     ],
 
