@@ -13,6 +13,9 @@ namespace Parser
 
         [JsonProperty("globalFields")]
         public List<HL7_Field> globalFields;
+
+        [JsonProperty("tables")]
+        public List<HL7_Table> tables;
     }
 
     public class HL7_MessageType
@@ -62,13 +65,34 @@ namespace Parser
         [JsonProperty("fieldTable")]
         public String fieldTable { get; set; }
     }
+
+    public class HL7_Table
+    {
+        [JsonProperty("tableTitle")]
+        public String tableTitle;
+
+        [JsonProperty("possibleValues")]
+        public List<HL7_Table_Value> tableValues;
+    }
+    public class HL7_Table_Value
+    {
+        [JsonProperty("value")]
+        public String value;
+
+        [JsonProperty("description")]
+        public String description;
+
+
+    }
+
+
     class Program
     {
         public String textToAnalize;
         public static HL7_Instance HL7Instance;
         public static List<HL7_Field> segments;
-        
         public static List<String> receivedMessageSegments;
+        public static List<HL7_Table> tables;
         static void Main(string[] args)
         {
             initialize();
@@ -90,6 +114,7 @@ namespace Parser
                 string json = r.ReadToEnd();
                 HL7Instance = JsonConvert.DeserializeObject<HL7_Instance>(json);
                 segments = HL7Instance.globalFields;
+                tables = HL7Instance.tables;
             }
         }
 
@@ -191,9 +216,13 @@ namespace Parser
                     Console.WriteLine("El segmento \"" + fields[i].fieldTitle+"\" es REQUERIDO y esta vacio");
                     break;
                 }
-                
-                if (fieldSections[i + 1].Trim() != "")
-                    Console.WriteLine(fieldTitle + "-" + (i+1)+ ":"+fields[i].fieldTitle+":"+ fieldSections[i+1]);
+
+                if(fields[i].fieldTable!= "-")
+                    Console.WriteLine(fieldTitle + "-" + (i + 1) + ":" + fields[i].fieldTitle + ":" + fieldSections[i + 1]);
+
+
+                if (fieldSections[i + 1].Trim() != "") ;
+                    //Console.WriteLine(fieldTitle + "-" + (i+1)+ ":"+fields[i].fieldTitle+":"+ fieldSections[i+1]);
               
             }
 
