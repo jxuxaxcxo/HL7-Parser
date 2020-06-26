@@ -424,131 +424,133 @@
     "globalFields": [
         {
             "title": "MSH",
-            "segments": [ "Encoding Characters", "Sending Application", "Sending Facility", "Receiving Application", "Receiving Facility", "Date/Time of Message", "Security", "Message Type", "Message Control ID", "Processing ID", "Version ID", "Sequence Number", "Continuation Pointer", "Accept Acknowledgement Type", "Application Acknowledgement Typer", "Country Code", "Character Set", "Principal Language of Message" ]
-        },
-        {
-            "title": "NTE",
-            "segments": [ "Set ID-NTE", "Source of Comment", "Comment", "Comment Type" ]
-        },
-        {
-            "title": "PID",
-            "segments": [ "SET ID-PID", "Patient ID", "Patient Identifier List", "Alternate Patient ID", "Patient Name", "Mothers Maiden Name", "Date/Time of Birth", "Sex", "Patien Alias", "Race", "Patient Address", "County Code", "Phone Number-Home", "Phone Number-Business", "Primary Language", "Marital Status", "Religion", "Patient Account Number", "SSN Number-Patient", "SSN Number-Patient", "Drivers License Number-Patient", "Mothers Identifier", "Ethnic Group", "Birth Place", "Multiple Birth Indicator", "Birth Order", "Citizenship", "Veterams Military Status", "Nationality", "Patient Death Date and Time", "Patient Death Indicator" ]
-        },
-        {
-            "title": "PD1",
-            "segments": [ "Living Dependency", "Living Arrangement", "Patiten Primary Facility", "Patient Primary Care Provider Name", "Student Indicator", "Handicap", "Living Will", "Organ Donor", "Separate Bill", "Duplicate Patient", "Publicity Code", "Protection Indicator" ]
-        },
-        {
-            "title": "ORC",
-            "segments": [ "Order Control", "Place Order Number", "Filler Order Number", "Placer Group Number", "Order Status", "Response Flag", "Quantity/Timing", "Parent Order", "Date/Time of Transaction", "Entered By", "Verified By", "Ordering Provide", "Enteres Location", "Call Back Phone Number", "Order Effective Date/Time", "Order Control Code Reason", "Entering Organization", "Entering Device", "Action By", "Advanced Beneficiary Notice Code", "Ordering Facility Name", "Ordering Facility Address", "Ordering Facility Phone Number", "Ordering Provider Address" ]
-        },
-        {
-            "title": "CTI",
-            "segments": [ "Sponsor Study ID", "Study Phase Identifier", "Study Scheduled Time Point" ]
-        },
-        {
-            "title": "BLG",
-            "segments": [ "When to Charge", "Charge Type", "Account ID" ]
-        },
-        {
-            "title": "MSA",
-            "segments": [ "Acknowledgment Code", "Message Control ID", "Text Message", "Expected Sequence Number", "Delayed Acknowledgement Type", "Error Condition" ]
-        },
-        {
-            "title": "ERR",
-            "segments": [ "Error Code and Location" ]
-        },
-        {
-            "title": "NK1",
-            "segments": [ "Set ID-NK1", "NK Name", "Relationship", "Address", "Phone Numbe", "Business Phone Number", "Contact Role", "Start Date", "End Date", "Next of Kin/Associated Parties Job Title", "Next of Kin/Associated Parties Job Dode/Class", "Next of Kin/Associated Parties Employee Number", "Organization Name-NK1", "Marital Status", "Sex", "Date/Time of Birth", "Living Dependency", "Ambulatory Status", "Citinzenship", "Primary Language", "Living Arrangement", "Publicity Code", "Protection Indicator", "Student Indicator", "Religion", "Mothers Maiden Name", "Nationality", "Ethnic Group", "Contact Reason", "Contact Persons Name", "Contact Persons Telephone Number", "Contact Person Address", "Next of Kin/Associated Partys Identifiers", "Job Status", "Race", "Handicap", "Contact Person Social Security Number" ]
-        },
-        {
-            "title": "PV1",
-            "segments": [ "Set ID-PV1", "Patient Class", "Assigned Patient Location", "Admission Type", "Preadmit Number", "Prior Patient Location", "Attending Doctor", "Reffering Doctor", "Consulting Doctor", "Hospital Service", "Temporary Location", "Preadmit Test Indicator", "Re-admission Indicator", "Admit Source", "Ambulatory Status", "VIP Indicator", "Admitting Doctor", "Patient Type", "Visit Number", "Financial Class", "Charge Price Indicator", "Courtesy Code", "Credit Rating", "Contract Code", "Contract Effective Date", "Contract Amount", "Contract Period", "Interest Code", "Transfer to Bad Debt Code", "Transfer to Bad Debt Date", "Bad Debt Agency Code", "Bad Debt Trnasfer Amount", "Bad Debt Recovery Amount", "Delete Account Indicator", "Delete Account Indicator", "Delete Account Date", "Discharge Disposition", "Discharged to Location", "Diet Type", "Serving Facility", "Bed Status", "Account Status", "Pending Location", "Prior Temporary Location", "Admit Date/Time", "Discharge Date/Time", "Current Patient Balance", "Total Charges", "Total Adjustments", "Total Payments", "Alternate Visit ID", "Visit Indicator", "Other Healthcare Provider" ]
-        },
-        {
-            "title": "PV2",
-            "segments": [ "Prior Pending Location", "Accomodation Code", "Admit Reason", "Tansfer Reason", "Patient Valuables", "Patient Valueables Location", "Visit User Code", "Expected Admit Date/Time", "Expected Discharge Date/Time", "Estimated Length of Impatient Stay", "Actual Length of Impatient Stay", "Visit Description", "Referral Source Code", "Previous Service Date", "Employment Illness Related Indicator", "Purge Status Code", "Purge Status Date", "Special Program Code", "Retention Indicator", "Expected Number of Insurance Plans", "Visit Publicity Code", "Visit Protection Indicator", "Clinica Organization Name", "Patien Status Code", "Visit Priority Code", "Previous Treatment Date", "Expected Discharge Disposition", "Signature on File Date", "First Similar Ilness Date", "Patient Charge Adjustment Code", "Recurring Service Code", "Billing Media Code", "Expected Surgery Date & Time", "Military Partnership Code", "Military Non-Availability Code", "Newborn Baby Indicator", "Baby Detained Indicator" ]
-        },
-        {
-            "title": "OBR",
-            "segments": [ "Set ID-OBR", "Place Order Number", "Filler Order Number", "Universal Service ID", "Priority-OBR", "Requested Date/Time", "Observation Date/Time", "Observation End Date/Time", "Collection Volume*", "Collector Identifier*", "Specimen Action Code*", "Danger Code", "Relevant Clinical Info", "Specimen Received Date/Time", "Specimen Source", "Ordering Provider", "Order Callback Phone Number", "Place Field 1", "Place Field 2", "Filler Field 1+", "Filler Field 2+", "Resultrs Rpt/Status Chng-Date/Time+", "Charge to Practice+", "Diagnostic Serv Sect ID", "Result Status +", "Parent Result+", "Quantity/Timing", "Result Copies To", "Parent Number", "Transportation Mode", "Reason for Study", "Principal Result Interpreter+", "Assistant Result Interpreter+", "Technician+", "Transcriptionist+", "Scheduled Date/Time", "Number of Sample Container", "Transport Logistics of Collected Sample*", "Collectors Comment*", "Transport Arranger", "Escort Required", "Planned Patient Transport Comment", "Procedure Code", "Procedure Code Modifier" ]
-        },
-        {
-            "title": "DSC",
-            "segments": [ "Continuation Pointer" ]
-        },
-        {
-            "title": "MSA",
-            "segments": [ "Acknowledgement Code", "Message Control ID", "Text Message", "Expected Sequence Number", "Delayer Acknowledgement Type", "Error Condition" ]
-        },
-        {
-            "title": "OBX",
-            "segments": [ "Set ID-OBX", "Value Type", "Observation Identifier", "Observation Sub-ID", "Observation Value", "Units", "References Range", "Abnormal Flags", "Probability", "Nature of Abnormal Test", "Observation Result Status", "Date Last Obs Normal Values", "User Definer Access Checks", "Date/Time of The Observation", "Producers ID", "Responsible Observer", "Obseravtion Method" ]
-        },
-        {
-            "title": "RQD",
-            "segments": [ "Requisition Line Number", "Item Code - Internal", "Item Code - External", "Hospital Item Code", "Requisition Quantity", "Requisition Unit of Measure", "Department Cost Center", "Item Natural Account Code", "Deliver To ID", "Date Needed" ]
-        },
-        {
-            "title": "RQ1",
-            "segments": [ "Anticipated Price", "Manufactured ID", "Manufacturer's Catalog", "Vendor ID", "Vendor Catalog", "Taxable", "Substitute Allowed" ]
-        },
-        {
-            "title": "RXO",
-            "segments": [ "Requested Give Code", "Requested Give Amount - Minimum", "Requested Give Amount - Maximum", "Requested Give Units", "Requested Dosage Form", "Provider's Pharmacy Instructions", "Provider's Administration Instructions", "Deliver To Location", "Allow Substitutions", "Requested Dispense Code", "Requested Dispense Amount", "Requested Dispense Units", "Number of Refills", "Ordering Provider's DEA Number", "Pharmacist/Treatment Supplier's Verifier ID", "Needs Human Review", "Requested Give Per", "Requested Give Strength", "Requested Give Strength Units", "Indication", "Requested Give Rate Amount", "Requested Give Rate Units" ]
-        },
-        {
-            "title": "ODS",
-            "segments": [ "Type", "Servce Period", "Diet, Supplement, or Preference Code", "Text Instruction" ]
-        },
-        {
-            "title": "ODT",
-            "segments": [ "Tray Type", "Servce Period", "Text Instruction" ]
-        },
-        {
-            "title": "QRD",
-            "segments": [ "Query Date/Time", "Query Format Code", "Query Priority", "Query ID", "Deferred Response Type", "Deferred Response Date/Time", "Quantity Limited Request", "Who Subject Filter", "What Subject Filter", "What Department Data Code", "What Data Code Value Qualifier", "Query Results Level" ]
-        },
-        {
-            "title": "QRF",
-            "segments": [ "Where Subject Filter", "When Data Start Date/Time", "When Data End Date/Time", "What User Qualifier", "Other QRY Subject Filter", "Which Date/Time Qualifier", "Which Date/Time Status Qualifier", "Date/Time Selection Qualifier", "When Quantity/Timing Qualifier" ]
-        },
-        {
-            "title": "EVN",
-            "segments": [ "Event Type Code", "Recorded Date/Time", "Date/Time Planned Event", "Event Reason Code", "Operator ID", "Event Occurred" ]
-        },
-        {
-            "title": "DB1",
-            "segments": [ "Set ID - DB1", "Disabled person code", "Disabled person identifier", "Disabled Indicator", "Disability start date", "Disability end date", "Disability return to work date", "Disability unable to work date" ]
-        },
-        {
-            "title": "AL1",
-            "segments": [ "Set ID - AL1", "Allergy Type", "Allergy Code/Mnemonic/ Description", "Allergy Severity", "Allergy Reaction", "Identification Date" ]
-        },
-        {
-            "title": "DG1",
-            "segments": [ "Set ID - Diagnosis", "Diagnosis Coding Method", "Diagnosis Code", "Diagnosis Description", "Diagnosis Date/Time", "Diagnosis Type", "Major Diagnostic Category", "Diagnostic Related Group", "DRG Approval Indicator", "DRG Grouper Review Code", "Outlier Type", "Outlier Days", "Outlier Cost", "Grouper Version and Type", "Diagnosis Priority", "Diagnosing Clinician", "Diagnosis Classification", "Confidential Indicator", "Attestation Date/Time" ]
-        },
-        {
-            "title": "DRG",
-            "segments": [ "Diagnostic Related Group", "DRG Assigned Date/Time", "DRG Approval Indicator", "DRG Grouper Review Code", "Outlier Type", "Outlier Days", "Outlier Cost", "DRG Payor", "Outlier Reimbursement", "Confidential Indicator" ]
-        },
-        {
-            "title": "GT1",
-            "segments": [ "Set ID - Guarantor", "Guarantor Number", "Guarantor Name", "Guarantor Spouse Name", "Guarantor Address", "Guarantor Ph Num- Home", "Guarantor Ph Num-Business", "Guarantor Date/Time of Birth", "Guarantor Sex", "Guarantor Type", "Guarantor Relationship", "Guarantor SSN", "Guarantor Date - Begin", "Guarantor Date - End", "Guarantor Priority", "Guarantor Employer Name", "Guarantor Employer Address", "Guarantor Employ Phone Number", "Guarantor Employee ID Number", "Guarantor Employment Status", "Guarantor Organization", "Guarantor Billing Hold Flag", "Guarantor Credit Rating Code", "Guarantor Death Date And Time", "Guarantor Death Flag", "Guarantor Charge Adjustment Code", "Guarantor Household Annual Income", "Guarantor Household Size", "Guarantor Employer ID Number", "Guarantor Marital Status Code", "Guarantor Hire Effective Date", "Employment Stop Date", "Living Dependency", "Ambulatory Status Code", "Citizenship", "Primary Language", "Living Arrangement", "Publicity Indicator", "Protection Indicator", "Student Indicator", "Religion", "Mother s Maiden Name", "Nationality Code", "Ethnic Group", "Contact Person's Name", "Contact Person s Telephone Number", "Contact Reason", "Contact Relationship Code", "Job Title", "Job Code/Class", "Guarantor Employer's Organization Name", "Handicap", "Job Status", "Guarantor Financial Class", "Guarantor Race" ]
-        },
-        {
-            "title": "ACC",
-            "segmetns": [ "Accident Date/Time", "Accident Code", "Accident Location", "Auto Accident State", "Accident Job Related Indicator", "Accident Death Indicator" ]
-        },
-        {
-            "title": "UB1",
-            "segments": [ "Set ID - UB1", "Blood Deductible", "Blood Furnished Pints Of", "Blood Replaced Pints", "Blood Not Replaced Pints", "Co Insurance Days", "Condition Code", "Covered Days", "Non Covered Days", "Value Amount & Code", "Number Of Grace Days", "Spec Program Indicator", "PSRO/UR Approval Indicator", "PSRO/UR Approved Stay Fm", "PSRO/UR Approved Stay To", "Occurrence", "Occurrence Span", "Occur Span Start Date", "Occur Span End Date", "UB 82 Locator 2", "UB 82 Locator 9", "UB 82 Locator 27", "UB 82 Locator 45" ]
-        },
-        {
-            "title": "UB2",
-            "segments": [ "Set ID - UB2", "Co-Insurance Days", "Condition Code", "Covered Days", "Non-Covered Days", "Value Amount & Code", "Occurrence Code & Date", "Occurrence Span Code/Dates", "UB92 Locator 2", "UB92 Locator 11", "UB92 Locator 31", "Document Control Number", "UB92 Locator 49", "UB92 Locator 56", "UB92 Locator 57", "UB92 Locator 78", "Special Visit Count" ]
+            "fields": [ 
+              {
+                "fieldTitle":"Field Separator",
+                "dataType":"ST",
+                "fieldOptionality":"R",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },
+              {
+                "fieldTitle":"Encoding Characters",
+                "dataType":"ST",
+                "fieldOptionality":"R",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },
+              {
+                "fieldTitle":"Sending Application",
+                "dataType":"HD",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },
+              {
+                "fieldTitle":"Receiving Application",
+                "dataType":"HD",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },
+              {
+                "fieldTitle":"Receiving Facility",
+                "dataType":"HD",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },
+              {
+                "fieldTitle":"Date/Time of Message",
+                "dataType":"TS",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },
+              {
+                "fieldTitle":"Security",
+                "dataType":"ST",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },
+              {
+                "fieldTitle":"Message Type",
+                "dataType":"CM_MSG",
+                "fieldOptionality":"R",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },
+              {
+                "fieldTitle":"Message Control ID",
+                "dataType":"ST",
+                "fieldOptionality":"R",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },
+              {
+                "fieldTitle":"Processing ID",
+                "dataType":"PT",
+                "fieldOptionality":"R",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },
+              {
+                "fieldTitle":"Version ID",
+                "dataType":"ID",
+                "fieldOptionality":"R",
+                "fieldRepeteability":"N",
+                "fieldTable":"0104"
+              },
+              {
+                "fieldTitle":"Sequence Number",
+                "dataType":"NM",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },{
+                "fieldTitle":"Continuation Pointer",
+                "dataType":"ST",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              },
+              {
+                "fieldTitle":"Accept Acknowledgement Type",
+                "dataType":"ID",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"N",
+                "fieldTable":"0155"
+              },
+              {
+                "fieldTitle":"Application Acknowledgement Type",
+                "dataType":"ID",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"N",
+                "fieldTable":"0155"
+              },
+              {
+                "fieldTitle":"Country Code",
+                "dataType":"ID",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"N",
+                "fieldTable":"ISO3166"
+              },
+              {
+                "fieldTitle":"Character Set",
+                "dataType":"ID",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"3",
+                "fieldTable":"0211"
+              },
+              {
+                "fieldTitle":"Principal Language of Message",
+                "dataType":"CE",
+                "fieldOptionality":"O",
+                "fieldRepeteability":"N",
+                "fieldTable":"-"
+              }
+            ]
         }
     ]
 }
