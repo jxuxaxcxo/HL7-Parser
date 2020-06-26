@@ -100,7 +100,7 @@ namespace Parser
             {
                 string line, firstLine = "";
                 bool isFirstLine = true;
-                
+
                 while ((line = streamReader.ReadLine()) != null)
                 {
                     if (isFirstLine)
@@ -188,7 +188,7 @@ namespace Parser
             
                 if(fields[i].fieldOptionality == "R" && fieldSections[i+1] == "")
                 {
-                    Console.WriteLine("El segmento");
+                    Console.WriteLine("El segmento \"" + fields[i].fieldTitle+"\" es REQUERIDO y esta vacio");
                     break;
                 }
                 

@@ -1132,5 +1132,66 @@
                 }
             ]
         }
+    ],
+
+    "tables":[
+      {"tableTitle":"0104",
+        "possibleValues":[
+          {
+            "value":"2.0",
+            "description":"Release 2.0"
+          },
+          {
+            "value":"2.0D",
+            "description":"Demo 2.0"
+          },
+          {
+            "value":"2.1",
+            "description":"Release 2.1"
+          },
+          {
+            "value":"2.2",
+            "description":"Release 2.2"
+          },
+          {
+            "value":"2.3",
+            "description":"Release 2.3"
+          }
+        ]
+      },
+      {
+        "tableTitle":"0155",
+        "possibleValues":[
+          {
+            "value":"AL",
+            "description":"Always"
+          },
+          {
+            "value":"ER",
+            "description":"Error/reject conditions only"
+          },
+          {
+            "value":"NE",
+            "description":"Never"
+          },
+          {
+            "value":"SU",
+            "description":"Successful completion only"
+          }
+        ]
+      },
+      {
+        "tableTitle":"ISO3166",
+        "possibleValues":[
+          {
+            "value":"BOL",
+            "description":"Bolivia"
+          },
+          {
+            "value":"USA",
+            "description":"United States of America"
+          }
+        ]
+      }
     ]
 }
