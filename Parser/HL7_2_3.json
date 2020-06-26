@@ -424,412 +424,713 @@
     "globalFields": [
         {
             "title": "MSH",
-            "fields": [ 
-              {
-                "fieldTitle":"Field Separator",
-                "dataType":"ST",
-                "fieldOptionality":"R",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },
-              {
-                "fieldTitle":"Encoding Characters",
-                "dataType":"ST",
-                "fieldOptionality":"R",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },
-              {
-                "fieldTitle":"Sending Application",
-                "dataType":"HD",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },
-              {
-                "fieldTitle":"Receiving Application",
-                "dataType":"HD",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },
-              {
-                "fieldTitle":"Receiving Facility",
-                "dataType":"HD",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },
-              {
-                "fieldTitle":"Date/Time of Message",
-                "dataType":"TS",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },
-              {
-                "fieldTitle":"Security",
-                "dataType":"ST",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },
-              {
-                "fieldTitle":"Message Type",
-                "dataType":"CM_MSG",
-                "fieldOptionality":"R",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },
-              {
-                "fieldTitle":"Message Control ID",
-                "dataType":"ST",
-                "fieldOptionality":"R",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },
-              {
-                "fieldTitle":"Processing ID",
-                "dataType":"PT",
-                "fieldOptionality":"R",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },
-              {
-                "fieldTitle":"Version ID",
-                "dataType":"ID",
-                "fieldOptionality":"R",
-                "fieldRepeteability":"N",
-                "fieldTable":"0104"
-              },
-              {
-                "fieldTitle":"Sequence Number",
-                "dataType":"NM",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },{
-                "fieldTitle":"Continuation Pointer",
-                "dataType":"ST",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              },
-              {
-                "fieldTitle":"Accept Acknowledgement Type",
-                "dataType":"ID",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"N",
-                "fieldTable":"0155"
-              },
-              {
-                "fieldTitle":"Application Acknowledgement Type",
-                "dataType":"ID",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"N",
-                "fieldTable":"0155"
-              },
-              {
-                "fieldTitle":"Country Code",
-                "dataType":"ID",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"N",
-                "fieldTable":"ISO3166"
-              },
-              {
-                "fieldTitle":"Character Set",
-                "dataType":"ID",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"3",
-                "fieldTable":"0211"
-              },
-              {
-                "fieldTitle":"Principal Language of Message",
-                "dataType":"CE",
-                "fieldOptionality":"O",
-                "fieldRepeteability":"N",
-                "fieldTable":"-"
-              }
+            "fields": [
+                {
+                    "fieldTitle": "Field Separator",
+                    "dataType": "ST",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Encoding Characters",
+                    "dataType": "ST",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Sending Application",
+                    "dataType": "HD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Receiving Application",
+                    "dataType": "HD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Receiving Facility",
+                    "dataType": "HD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Date/Time of Message",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Security",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Message Type",
+                    "dataType": "CM_MSG",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Message Control ID",
+                    "dataType": "ST",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Processing ID",
+                    "dataType": "PT",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Version ID",
+                    "dataType": "ID",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0104"
+                },
+                {
+                    "fieldTitle": "Sequence Number",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Continuation Pointer",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Accept Acknowledgement Type",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0155"
+                },
+                {
+                    "fieldTitle": "Application Acknowledgement Type",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0155"
+                },
+                {
+                    "fieldTitle": "Country Code",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "ISO3166"
+                },
+                {
+                    "fieldTitle": "Character Set",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "3",
+                    "fieldTable": "0211"
+                },
+                {
+                    "fieldTitle": "Principal Language of Message",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
             ]
         },
         {
-          "title":"CTI",
-          "fields":[
-            {
-              "fieldTitle":"Clinical Trial Identification",
-              "dataType":"EI",
-              "fieldOptionality":"R",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Study Phase Identifier",
-              "dataType":"CE",
-              "fieldOptionality":"C",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Study Scheduled Time Point",
-              "dataType":"CE",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            }
-          ]
+            "title": "CTI",
+            "fields": [
+                {
+                    "fieldTitle": "Clinical Trial Identification",
+                    "dataType": "EI",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Study Phase Identifier",
+                    "dataType": "CE",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Study Scheduled Time Point",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
         },
         {
-          "title":"BLG",
-          "fields":[
-            {
-              "fieldTitle":"When to Charge",
-              "dataType":"CM_CCD",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Charge Type",
-              "dataType":"ID",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"0122"
-            },
-            {
-              "fieldTitle":"Account ID",
-              "dataType":"CK",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            }
-          ]
+            "title": "BLG",
+            "fields": [
+                {
+                    "fieldTitle": "When to Charge",
+                    "dataType": "CM_CCD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Charge Type",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0122"
+                },
+                {
+                    "fieldTitle": "Account ID",
+                    "dataType": "CK",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
         },
         {
-          "title":"PD1",
-          "fields":[
-            {
-              "fieldTitle":"Living Dependency",
-              "dataType":"IS",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"Y",
-              "fieldTable":"0223"
-            },
-            {
-              "fieldTitle":"Living Arrangement",
-              "dataType":"IS",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"0220"
-            },
-            {
-              "fieldTitle":"Patient Primary Facility",
-              "dataType":"XON",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"Y",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Patient Primary Care Provider Name & ID No",
-              "dataType":"XCN",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"Y",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Student Indicator",
-              "dataType":"IS",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"0231"
-            },
-            {
-              "fieldTitle":"Handicap",
-              "dataType":"IS",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"0295"
-            },
-            {
-              "fieldTitle":"Living Will",
-              "dataType":"IS",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"0315"
-            },
-            {
-              "fieldTitle":"Organ Donor",
-              "dataType":"IS",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"0316"
-            },
-            {
-              "fieldTitle":"Separate Bill",
-              "dataType":"ID",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"0136"
-            },
-            {
-              "fieldTitle":"Duplicate Patient",
-              "dataType":"CX",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"Y",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Publicity Indicator",
-              "dataType":"CE",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"0215"
-            },
-            {
-              "fieldTitle":"Protection Indicator",
-              "dataType":"ID",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"0136"
-            }
-          ]
+            "title": "PD1",
+            "fields": [
+                {
+                    "fieldTitle": "Living Dependency",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0223"
+                },
+                {
+                    "fieldTitle": "Living Arrangement",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0220"
+                },
+                {
+                    "fieldTitle": "Patient Primary Facility",
+                    "dataType": "XON",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Patient Primary Care Provider Name & ID No",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Student Indicator",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0231"
+                },
+                {
+                    "fieldTitle": "Handicap",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0295"
+                },
+                {
+                    "fieldTitle": "Living Will",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0315"
+                },
+                {
+                    "fieldTitle": "Organ Donor",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0316"
+                },
+                {
+                    "fieldTitle": "Separate Bill",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Duplicate Patient",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Publicity Indicator",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0215"
+                },
+                {
+                    "fieldTitle": "Protection Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                }
+            ]
         },
         {
-          "title":"ORC",
-          "fields":[
-            {
-              "fieldTitle":"Order Control",
-              "dataType":"ID",
-              "fieldOptionality":"R",
-              "fieldRepeteability":"N",
-              "fieldTable":"0119"
-            },
-            {
-              "fieldTitle":"Placer Order Number",
-              "dataType":"EI",
-              "fieldOptionality":"C",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Filler Order Number",
-              "dataType":"EI",
-              "fieldOptionality":"C",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Placer Group Number",
-              "dataType":"EI",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Order Status",
-              "dataType":"ID",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"0038"
-            },
-            {
-              "fieldTitle":"Response Flag",
-              "dataType":"ID",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"0121"
-            },
-            {
-              "fieldTitle":" Quantity/Timing",
-              "dataType":"TQ",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Parent Order",
-              "dataType":"CM_EIP",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Date/Time of Transaction",
-              "dataType":"TS",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Entered By",
-              "dataType":"XCN",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Verified By",
-              "dataType":"XCN",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Ordering Provider",
-              "dataType":"XCN",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Enterer's Location",
-              "dataType":"PL",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Call Back Phone Number",
-              "dataType":"XTN",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"2",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Order Effective Date/Time",
-              "dataType":"TS",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Order Control Code Reason",
-              "dataType":"CE",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Entering Organization",
-              "dataType":"CE",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Entering Device",
-              "dataType":"CE",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            },
-            {
-              "fieldTitle":"Action By",
-              "dataType":"XCN",
-              "fieldOptionality":"O",
-              "fieldRepeteability":"N",
-              "fieldTable":"-"
-            }
-          ]
+            "title": "ORC",
+            "fields": [
+                {
+                    "fieldTitle": "Order Control",
+                    "dataType": "ID",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0119"
+                },
+                {
+                    "fieldTitle": "Placer Order Number",
+                    "dataType": "EI",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Filler Order Number",
+                    "dataType": "EI",
+                    "fieldOptionality": "C",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Placer Group Number",
+                    "dataType": "EI",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Order Status",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0038"
+                },
+                {
+                    "fieldTitle": "Response Flag",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0121"
+                },
+                {
+                    "fieldTitle": " Quantity/Timing",
+                    "dataType": "TQ",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Parent Order",
+                    "dataType": "CM_EIP",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Date/Time of Transaction",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Entered By",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Verified By",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Ordering Provider",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Enterer's Location",
+                    "dataType": "PL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Call Back Phone Number",
+                    "dataType": "XTN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "2",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Order Effective Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Order Control Code Reason",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Entering Organization",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Entering Device",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Action By",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "NTE",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - Notes and Comments",
+                    "dataType": "SI",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Source of Comment",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0105"
+                },
+                {
+                    "fieldTitle": "Comment",
+                    "dataType": "FT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "PID",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - Patient ID",
+                    "dataType": "SI",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Patient ID (External ID)",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Patient ID (Internal ID)",
+                    "dataType": "CX",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Alternate Patient ID",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Patient Name",
+                    "dataType": "XPN",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Mother's Maiden Name",
+                    "dataType": "XPN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Date of Birth",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Sex",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0001"
+                },
+                {
+                    "fieldTitle": "Patient Alias",
+                    "dataType": "XPN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Race",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0005"
+                },
+                {
+                    "fieldTitle": "Patient Address",
+                    "dataType": "XAD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "County Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0289"
+                },
+                {
+                    "fieldTitle": "Phone Number - Home",
+                    "dataType": "XTN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Phone Number - Business",
+                    "dataType": "XTN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Primary Language",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0296"
+                },
+                {
+                    "fieldTitle": "Marital Status",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0002"
+                },
+                {
+                    "fieldTitle": "Religion",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0006"
+                },
+                {
+                    "fieldTitle": "Patient Account Number",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "SSN Number - Patient",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Driver's License Number",
+                    "dataType": "DLN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Mother's Identifier",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Ethnic Group",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0189"
+                },
+                {
+                    "fieldTitle": "Birth Place",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Multiple Birth Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Birth Order",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Citizenship",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0171"
+                },
+                {
+                    "fieldTitle": "Veterans Military Status",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0172"
+                },
+                {
+                    "fieldTitle": "Nationality Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0212"
+                },
+                {
+                    "fieldTitle": "Patient Death Date and Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Patient Death Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                }
+            ]
+        },
+        {
+            "title": "MSA",
+            "fields": [
+                {
+                    "fieldTitle": "Acknowledgement code",
+                    "dataType": "ID",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0008"
+                },
+                {
+                    "fieldTitle": "Message Control ID",
+                    "dataType": "ST",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Text Message",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Expected Sequence Number",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Delayed Acknowledgement Type",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0102"
+                },
+                {
+                    "fieldTitle": "Error Condition",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "ERR",
+            "fields": [
+                {
+                    "fieldTitle": "Error Code and Location",
+                    "dataType": "CM_ELD",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                }
+            ]
         }
     ]
 }
