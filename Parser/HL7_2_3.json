@@ -551,6 +551,58 @@
                 "fieldTable":"-"
               }
             ]
+        },
+        {
+          "title":"CTI",
+          "fields":[
+            {
+              "fieldTitle":"Clinical Trial Identification",
+              "dataType":"EI",
+              "fieldOptionality":"R",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Study Phase Identifier",
+              "dataType":"CE",
+              "fieldOptionality":"C",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Study Scheduled Time Point",
+              "dataType":"CE",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            }
+          ]
+        },
+        {
+          "title":"Billing",
+          "fields":[
+            {
+              "fieldTitle":"When to Charge",
+              "dataType":"CM_CCD",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            },
+            {
+              "fieldTitle":"Charge Type",
+              "dataType":"ID",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"0122"
+            },
+            {
+              "fieldTitle":"Account ID",
+              "dataType":"CK",
+              "fieldOptionality":"O",
+              "fieldRepeteability":"N",
+              "fieldTable":"-"
+            }
+          ]
         }
     ]
 }
