@@ -41,8 +41,26 @@ namespace Parser
         [JsonProperty("title")]
         public string title { get; set; }
 
-        [JsonProperty("segments")]
-        public List<string> segments { get; set; }
+        [JsonProperty("fields")]
+        public List<HL7_Field_Parts> fieldParts { get; set; }
+    }
+
+    public class HL7_Field_Parts
+    {
+        [JsonProperty("fieldTitle")]
+        public String fieldTitle { get; set; }
+
+        [JsonProperty("dataType")]
+        public String dataType { get; set; }
+
+        [JsonProperty("fieldOptionality")]
+        public String fieldOptionality { get; set; }
+
+        [JsonProperty("fieldRepeteability")]
+        public String fieldRepeteability { get; set; }
+
+        [JsonProperty("fieldTable")]
+        public String fieldTable { get; set; }
     }
     class Program
     {
@@ -163,6 +181,23 @@ namespace Parser
                 Console.WriteLine("El orden de los segmentos es correcto");      
         }
 
+        public static void checkFieldsValues(String fieldTitle, List<HL7_Field_Parts> fields, String[] fieldSections)
+        {
+            for(int i = 0; i < fieldSections.Length-1; i++)
+            {
+            
+                if(fields[i].fieldOptionality == "R" && fieldSections[i+1] == "")
+                {
+                    Console.WriteLine("El segmento");
+                    break;
+                }
+                
+                if (fieldSections[i + 1].Trim() != "")
+                    Console.WriteLine(fieldTitle + "-" + (i+1)+ ":"+fields[i].fieldTitle+":"+ fieldSections[i+1]);
+              
+            }
+
+        }
         public static int getMessageTypeIndex(String messageType)
         {
             for(int i = 0; i<HL7Instance.messageTypes.Count; i++)
@@ -180,13 +215,8 @@ namespace Parser
             String output = "";
             int tagIndex = getTagIndex(sections[0]);
 
-            for (int i = 0; i < sections.Length - 1; i++)
-            {
-                if (sections[i + 1].Trim() != "")
-                {
-                    output += segments[tagIndex].title + "-" + (i + 1) + ":" + segments[tagIndex].segments[i] + ": " + sections[i + 1] + "\n";
-                }    
-            }
+            checkFieldsValues(segments[tagIndex].title, segments[tagIndex].fieldParts, sections);
+
             receivedMessageSegments.Add(segments[tagIndex].title);
             Console.WriteLine(output);
         }
