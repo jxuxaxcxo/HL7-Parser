@@ -114,10 +114,75 @@
             "segmentOptionalityType":"O",
             "segmentRepeteability":"N"
           }
-
         ]
-
-      }
+      },
+      {
+        "title":"ORU^R01",
+        "segmentList":[{
+            "segmentTitle":"MSH",
+            "segmentOptionalityType":"R",
+            "segmentRepeteability":"N"
+          },{
+            "segmentTitle":"PID",
+            "segmentOptionalityType":"R",
+            "segmentRepeteability":"N"
+          },{
+            "segmentTitle":"PD1",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },{
+            "segmentTitle":"NTE",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"Y"
+          },{
+            "segmentTitle":"PV1",
+            "segmentOptionalityType":"R",
+            "segmentRepeteability":"N"
+          },{
+            "segmentTitle":"PV2",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },{
+            "segmentTitle":"ORC",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          },{
+            "segmentTitle":"OBR",
+            "segmentOptionalityType":"R",
+            "segmentRepeteability":"N"
+          },{
+            "segmentTitle":"NTE",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"Y"
+          },{
+            "segmentTitle":"CTI",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"Y"
+          },{
+            "segmentTitle":"DSC",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          }
+         ]
+	  },
+      {
+        "title":"ACK",
+        "segmentList":[{
+            "segmentTitle":"MSH",
+            "segmentOptionalityType":"R",
+            "segmentRepeteability":"N"
+          },{
+            "segmentTitle":"MSA",
+            "segmentOptionalityType":"R",
+            "segmentRepeteability":"N"
+          },{
+            "segmentTitle":"ERR",
+            "segmentOptionalityType":"O",
+            "segmentRepeteability":"N"
+          }
+         ]
+	  }
+  ]
   ], 
   "globalFields":[
       {  
