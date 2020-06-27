@@ -929,7 +929,7 @@
                     "dataType": "IS",
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
-                    "fieldTable": "0005"
+                    "fieldTable": "-"
                 },
                 {
                     "fieldTitle": "Patient Address",
@@ -943,7 +943,7 @@
                     "dataType": "IS",
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
-                    "fieldTable": "0289"
+                    "fieldTable": "-"
                 },
                 {
                     "fieldTitle": "Phone Number - Home",
@@ -964,7 +964,7 @@
                     "dataType": "CE",
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
-                    "fieldTable": "0296"
+                    "fieldTable": "-"
                 },
                 {
                     "fieldTitle": "Marital Status",
@@ -4176,6 +4176,27 @@
           { 
             "value":"USA",
             "description":"United States of America"
+          }
+        ]
+      },
+      {
+        "tableTitle":"0001",
+        "possibleValues":[
+          {
+            "value":"F",
+            "description":"Female"
+          },
+          {
+            "value":"M",
+            "description":"Male"
+          },
+          {
+            "value":"O",
+            "description":"Other"
+          },
+          {
+            "value":"U",
+            "description":"Unknown"
           }
         ]
       }
