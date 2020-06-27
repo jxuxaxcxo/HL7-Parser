@@ -4120,85 +4120,124 @@
         }
     ],
 
-    "tables":[
-      {"tableTitle":"0104",
-        "possibleValues":[
-          {
-            "value":"2.0",
-            "description":"Release 2.0"
-          },
-          {
-            "value":"2.0D",
-            "description":"Demo 2.0"
-          },
-          {
-            "value":"2.1",
-            "description":"Release 2.1"
-          },
-          {
-            "value":"2.2",
-            "description":"Release 2.2"
-          },
-          {
-            "value":"2.3",
-            "description":"Release 2.3"
-          }
-        ]
-      },
-      {
-        "tableTitle":"0155",
-        "possibleValues":[
-          {
-            "value":"AL",
-            "description":"Always"
-          },
-          {
-            "value":"ER",
-            "description":"Error/reject conditions only"
-          },
-          {
-            "value":"NE",
-            "description":"Never"
-          },
-          {
-            "value":"SU",
-            "description":"Successful completion only"
-          }
-        ]
-      },
-      {
-        "tableTitle":"ISO3166",
-        "possibleValues":[
-          {
-            "value":"BOL",
-            "description":"Bolivia"
-          },
-          { 
-            "value":"USA",
-            "description":"United States of America"
-          }
-        ]
-      },
-      {
-        "tableTitle":"0001",
-        "possibleValues":[
-          {
-            "value":"F",
-            "description":"Female"
-          },
-          {
-            "value":"M",
-            "description":"Male"
-          },
-          {
-            "value":"O",
-            "description":"Other"
-          },
-          {
-            "value":"U",
-            "description":"Unknown"
-          }
-        ]
-      }
+    "tables": [
+        {
+            "tableTitle": "0104",
+            "possibleValues": [
+                {
+                    "value": "2.0",
+                    "description": "Release 2.0"
+                },
+                {
+                    "value": "2.0D",
+                    "description": "Demo 2.0"
+                },
+                {
+                    "value": "2.1",
+                    "description": "Release 2.1"
+                },
+                {
+                    "value": "2.2",
+                    "description": "Release 2.2"
+                },
+                {
+                    "value": "2.3",
+                    "description": "Release 2.3"
+                }
+            ]
+        },
+        {
+            "tableTitle": "0155",
+            "possibleValues": [
+                {
+                    "value": "AL",
+                    "description": "Always"
+                },
+                {
+                    "value": "ER",
+                    "description": "Error/reject conditions only"
+                },
+                {
+                    "value": "NE",
+                    "description": "Never"
+                },
+                {
+                    "value": "SU",
+                    "description": "Successful completion only"
+                }
+            ]
+        },
+        {
+            "tableTitle": "ISO3166",
+            "possibleValues": [
+                {
+                    "value": "BOL",
+                    "description": "Bolivia"
+                },
+                {
+                    "value": "USA",
+                    "description": "United States of America"
+                }
+            ]
+        },
+        {
+            "tableTitle": "0001",
+            "possibleValues": [
+                {
+                    "value": "F",
+                    "description": "Female"
+                },
+                {
+                    "value": "M",
+                    "description": "Male"
+                },
+                {
+                    "value": "O",
+                    "description": "Other"
+                },
+                {
+                    "value": "U",
+                    "description": "Unknown"
+                }
+            ]
+        },
+        {
+            "tableTitle": "0002",
+            "possibleValues": [
+                {
+                    "value": "A",
+                    "description": "Separated"
+                },
+                {
+                    "value": "D",
+                    "description": "Divorced"
+                },
+                {
+                    "value": "M",
+                    "description": "Married"
+                },
+                {
+                    "value": "S",
+                    "description": "Single"
+                },
+                {
+                    "value": "W",
+                    "description": "Widowed"
+                }
+            ]
+        },
+        {
+            "tableTitle": "0136",
+            "possibleValues": [
+                {
+                    "value": "N",
+                    "description": "No"
+                },
+                {
+                    "value": "Y",
+                    "description": "Yes"
+                }
+            ]
+        }
     ]
 }
