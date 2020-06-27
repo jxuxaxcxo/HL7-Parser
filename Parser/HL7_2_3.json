@@ -648,7 +648,7 @@
                     "dataType": "IS",
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
-                    "fieldTable": "0295"
+                    "fieldTable": "-"
                 },
                 {
                     "fieldTitle": "Living Will",
@@ -4238,6 +4238,48 @@
                     "description": "Yes"
                 }
             ]
+        },
+        {
+          "tableTitle": "0233",
+          "possibleValues":[
+            {
+              "value":"CB",
+              "description":"Common Bath"
+            },
+            {
+              "value":"D",
+              "description":"Spouse Dependent"
+            },
+            {
+              "value":"M",
+              "description":"Medical Supervision Required"
+            },
+            {
+              "value":"S",
+              "description":"Small Children"
+            },
+            {
+              "value":"WU",
+              "description":"Walk Up"
+            }
+          ]
+        },
+        {
+          "tableTitle":"0231",
+          "possibleValues":[
+            {
+              "value":"F",
+              "description":"Full-time Student"
+            },
+            {
+              "value":"N",
+              "description":"Not a Student"
+            },
+            {
+              "value":"P",
+              "description":"Part-time student"
+            }
+          ]
         }
     ]
 }

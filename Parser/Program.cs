@@ -230,17 +230,16 @@ namespace Parser
                     break;
                 }
 
-                if (fields[i].fieldTable != "-" && !tableContainsValue(getTableIndex(fields[i].fieldTable), fieldSections[i + 1]))
-                {
-                    Console.WriteLine("---ERROR---");
-                    errorMessage = "The value inserted for field: \"" + fields[i].fieldTitle + "\" is invalid";
-                    Console.WriteLine(errorMessage);
-                    messageAccepted = false;
-                    break;
-                }
+                //if (fieldSections[i+1]!="" && fields[i].fieldTable != "-" && !tableContainsValue(getTableIndex(fields[i].fieldTable), fieldSections[i + 1]))
+                //{
+                //    Console.WriteLine("---ERROR---");
+                //    errorMessage = "The value inserted for field: \"" + fields[i].fieldTitle + "\" is invalid";
+                //    Console.WriteLine(errorMessage);
+                //    messageAccepted = false;
+                //    break;
+                //}
 
-
-                if (fieldSections[i + 1].Trim() != "") ;
+                if (fieldSections[i + 1].Trim() != "")
                     Console.WriteLine(segmentTitle + "-" + (i+1)+ ":"+fields[i].fieldTitle+":"+ fieldSections[i+1]);     
             }
 
@@ -258,10 +257,14 @@ namespace Parser
 
         public static bool tableContainsValue(int tableIndex, String fieldValue)
         {
-            for(int i = 0; i < tables[tableIndex].tableValues.Count; i++)
+            if (tableIndex != -1)
             {
-                if (tables[tableIndex].tableValues[i].value == fieldValue)
-                    return true;
+                for (int i = 0; i < tables[tableIndex].tableValues.Count; i++)
+                {
+                    if (tables[tableIndex].tableValues[i].value == fieldValue)
+                        return true;
+                }
+                return false;
             }
             return false;
         }
