@@ -1821,7 +1821,7 @@
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
                     "fieldTable": "-"
-                },
+                }
             ]
         },
         {
@@ -1945,7 +1945,7 @@
                     "fieldOptionality": "O",
                     "fieldRepeteability": "Y",
                     "fieldTable": "-"
-                },
+                }
             ]
         },
         {
@@ -2020,7 +2020,7 @@
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
                     "fieldTable": "-"
-                },
+                }
             ]
         },
         {
@@ -2074,7 +2074,7 @@
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
                     "fieldTable": "0136"
-                }               
+                }
             ]
         },
         {
@@ -2233,7 +2233,7 @@
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
                     "fieldTable": "-"
-                },
+                }
             ]
         },
         {
@@ -2594,7 +2594,7 @@
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
                     "fieldTable": "-"
-                },
+                }
 
             ]
         },
@@ -2719,7 +2719,1403 @@
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
                     "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "PV2",
+            "fields": [
+                {
+                    "fieldTitle": "Prior Pending Location",
+                    "dataType": "PL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
                 },
+                {
+                    "fieldTitle": "Accommodation Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0129"
+                },
+                {
+                    "fieldTitle": "Admit Reason",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Transfer Reason",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Patient Valuables",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Patient Valuables Location",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Visit User Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0130"
+                },
+                {
+                    "fieldTitle": "Expected Admit Date",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Expected Discharge Date",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Estimated Length of Inpatient Stay",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Actual Length of Inpatient Stay",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Visit Description",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Referral Source Code",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Previous Service Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Employment Illness Related Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Purge Status Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0213"
+                },
+                {
+                    "fieldTitle": "Purge Status Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Special Program Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0214"
+                },
+                {
+                    "fieldTitle": "Retention Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Expected Number of Insurance Plans",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Visit Publicity Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0215"
+                },
+                {
+                    "fieldTitle": "Visit Protection Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Clinic Organization Name",
+                    "dataType": "XON",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Patient Status Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0216"
+                },
+                {
+                    "fieldTitle": "Visit Priority Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0217"
+                },
+                {
+                    "fieldTitle": "Previous Treatment Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Expected Discharge Disposition",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0112"
+                },
+                {
+                    "fieldTitle": "Signature on File Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "First Similar Illness Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Patient Charge Adjustment Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0218"
+                },
+                {
+                    "fieldTitle": "Recurring Service Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0219"
+                },
+                {
+                    "fieldTitle": "Billing Media Code",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Expected Surgery Date & Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Military Partnership Code",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Military Non-Availabiltiy Code",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Newborn Baby Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Baby Detained Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                }
+            ]
+        },
+        {
+            "title": "OBR",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - Observation Request",
+                    "dataType": "SI",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Placer Order Number",
+                    "dataType": "EI",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0129"
+                },
+                {
+                    "fieldTitle": "Filler Order Number",
+                    "dataType": "EI",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Universal Service Identifier",
+                    "dataType": "CE",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Priority",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Requested Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Observation Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Observation End Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Collection Volume",
+                    "dataType": "CQ",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Collector Identifier",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Specimen Action Code",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0065"
+                },
+                {
+                    "fieldTitle": "Danger Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Relevant Clinical Information",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Specimen Received Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Specimen Source",
+                    "dataType": "CM_SPS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Ordering Provider",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Order Callback Phone Number",
+                    "dataType": "XTN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Placer Field 1",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Placer Field 2",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Filler Field 1",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Filler Field 2",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Results Rpt/Status Chng - Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Charge To Practice",
+                    "dataType": "XCM_MOC",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Diagnostic Service Section ID",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0074"
+                },
+                {
+                    "fieldTitle": "Result Status",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0123"
+                },
+                {
+                    "fieldTitle": "Parent Result",
+                    "dataType": "CM_PRL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Quantity/Timing",
+                    "dataType": "TQ",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Result Copies To",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Parent Number",
+                    "dataType": "CM_EIP",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Transportation Mode",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0124"
+                },
+                {
+                    "fieldTitle": "Reason For Study",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Principal Result Interpreter",
+                    "dataType": "CM_NDL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Assistant Result Interprete",
+                    "dataType": "CM_NDL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Technician",
+                    "dataType": "CM_NDL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Transcriptionist",
+                    "dataType": "CM_NDL",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Scheduled Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Number Of Sample Containers",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Transport Logistics Of Collected Sample",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Collector's Comment",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Transport Arrangement Responsibility",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Transport Arranged",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0224"
+                },
+                {
+                    "fieldTitle": "Escort Required",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0225"
+                },
+                {
+                    "fieldTitle": " Planned Patient Transport Comment",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "QRF",
+            "fields": [
+                {
+                    "fieldTitle": "Where Subject Filter",
+                    "dataType": "ST",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "When Data Start Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "When Data End Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "What User Qualifier",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Other QRY Subject Filter",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Which Date/Time Qualifier",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0156"
+                },
+                {
+                    "fieldTitle": "Which Date/Time Status Qualifier",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0157"
+                },
+                {
+                    "fieldTitle": "Date/Time Selection Qualifier",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "0158"
+                },
+                {
+                    "fieldTitle": "When Quantity/Timing Qualifier",
+                    "dataType": "TQ",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "EVN",
+            "fields": [
+                {
+                    "fieldTitle": "Event Type Code",
+                    "dataType": "ID",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0003"
+                },
+                {
+                    "fieldTitle": "Recorded Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Date/Time Planned Event",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Event Reason Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0062"
+                },
+                {
+                    "fieldTitle": "Operator ID",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0188"
+                },
+                {
+                    "fieldTitle": "Event Occurred",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "DB1",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - DB1",
+                    "dataType": "SI",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Disabled person code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0334"
+                },
+                {
+                    "fieldTitle": "Disabled person identifier",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Disabled Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Disability start date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Disability end date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Disability return to work date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Disability unable to work date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "AL1",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - AL1",
+                    "dataType": "SI",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Allergy Type",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0127"
+                },
+                {
+                    "fieldTitle": "Allergy Code/Mnemonic/ Description",
+                    "dataType": "CE",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Allergy Severity",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0128"
+                },
+                {
+                    "fieldTitle": "Allergy Reaction",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Identification Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "DG1",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - Diagnosis",
+                    "dataType": "SI",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Diagnosis Coding Method",
+                    "dataType": "ID",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0053"
+                },
+                {
+                    "fieldTitle": "Diagnosis Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0051"
+                },
+                {
+                    "fieldTitle": "Diagnosis Description",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Diagnosis Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Diagnosis Type",
+                    "dataType": "IS",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0052"
+                },
+                {
+                    "fieldTitle": "Major Diagnostic Category",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0118"
+                },
+                {
+                    "fieldTitle": "Diagnostic Related Group",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0055"
+                },
+                {
+                    "fieldTitle": "DRG Approval Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "DRG Grouper Review Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0056"
+                },
+                {
+                    "fieldTitle": "Outlier Type",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0083"
+                },
+                {
+                    "fieldTitle": "Outlier Days",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Outlier Cost",
+                    "dataType": "CP",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Grouper Version and Type",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Diagnosis Priority",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Diagnosing Clinician",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Diagnosis Classification",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0228"
+                },
+                {
+                    "fieldTitle": "Confidential Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Attestation Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                }
+            ]
+        },
+        {
+            "title": "DRG",
+            "fields": [
+                {
+                    "fieldTitle": "Diagnostic Related Group",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0055"
+                },
+                {
+                    "fieldTitle": "DRG Assigned Date/Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "DRG Approval Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "DRG Grouper Review Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0056"
+                },
+                {
+                    "fieldTitle": "Outlier Type",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0083"
+                },
+                {
+                    "fieldTitle": "Outlier Days",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Outlier Cost",
+                    "dataType": "CP",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "DRG Payor",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0229"
+                },
+                {
+                    "fieldTitle": "Outlier Reimbursement",
+                    "dataType": "CP",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Confidential Indicator",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                }
+            ]
+        },
+        {
+            "title": "GT1",
+            "fields": [
+                {
+                    "fieldTitle": "Set ID - Guarantor",
+                    "dataType": "SI",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Number",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Name",
+                    "dataType": "XPN",
+                    "fieldOptionality": "R",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Spouse Name",
+                    "dataType": "XPN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Address",
+                    "dataType": "XAD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Ph Num- Home",
+                    "dataType": "XTN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Ph Num-Business",
+                    "dataType": "XTN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Date/Time of Birth",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Sex",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0001"
+                },
+                {
+                    "fieldTitle": "Guarantor Type",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0068"
+                },
+                {
+                    "fieldTitle": "Guarantor Relationship",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0063"
+                },
+                {
+                    "fieldTitle": "Guarantor SSN",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Date - Begin",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Date - End",
+                    "dataType": "TDT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Priority",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Employer Name",
+                    "dataType": "XCN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Employer Address",
+                    "dataType": "XAD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Employ Phone Number",
+                    "dataType": "XTN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Employee ID Number",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Employment Status",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0066"
+                },
+                {
+                    "fieldTitle": "Guarantor Organization",
+                    "dataType": "XON",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Billing Hold Flag",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Guarantor Credit Rating Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Death Date And Time",
+                    "dataType": "TS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Death Flag",
+                    "dataType": "ID",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Guarantor Charge Adjustment Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0218"
+                },
+                {
+                    "fieldTitle": "Guarantor Household Annual Income",
+                    "dataType": "CP",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Household Size",
+                    "dataType": "NM",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Employer ID Number",
+                    "dataType": "CX",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Marital Status Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0002"
+                },
+                {
+                    "fieldTitle": "Guarantor Hire Effective Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Employment Stop Date",
+                    "dataType": "DT",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Living Dependency",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0223"
+                },
+                {
+                    "fieldTitle": "Ambulatory Status Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0009"
+                },
+                {
+                    "fieldTitle": "Citizenship",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0171"
+                },
+                {
+                    "fieldTitle": "Primary Language",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0296"
+                },
+                {
+                    "fieldTitle": "Living Arrangement",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0220"
+                },
+                {
+                    "fieldTitle": "Publicity Indicator",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0215"
+                },
+                {
+                    "fieldTitle": "Protection Indicator",
+                    "dataType": "iD",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0136"
+                },
+                {
+                    "fieldTitle": "Student Indicator",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0231"
+                },
+                {
+                    "fieldTitle": "Religion",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0006"
+                },
+                {
+                    "fieldTitle": "Mother's Maiden Name",
+                    "dataType": "XPN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Nationality Code",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0212"
+                },
+                {
+                    "fieldTitle": "Ethnic Group",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0189"
+                },
+                {
+                    "fieldTitle": "Contact Person's Name",
+                    "dataType": "XPN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Contact Person's Telephone Number",
+                    "dataType": "XTN",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Contact Reason",
+                    "dataType": "CE",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0222"
+                },
+                {
+                    "fieldTitle": "Contact Relationship Code",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0063"
+                },
+                {
+                    "fieldTitle": "Job Title",
+                    "dataType": "ST",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Job Code/Class",
+                    "dataType": "JCC",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Employer's Organization Name",
+                    "dataType": "XON",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "Y",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Handicap",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0310"
+                },
+                {
+                    "fieldTitle": "Job Status",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0311"
+                },
+                {
+                    "fieldTitle": "Guarantor Financial Class",
+                    "dataType": "FC",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "-"
+                },
+                {
+                    "fieldTitle": "Guarantor Race",
+                    "dataType": "IS",
+                    "fieldOptionality": "O",
+                    "fieldRepeteability": "N",
+                    "fieldTable": "0005"
+                }
             ]
         }
     ],
