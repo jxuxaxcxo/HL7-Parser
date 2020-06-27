@@ -978,7 +978,7 @@
                     "dataType": "IS",
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
-                    "fieldTable": "0006"
+                    "fieldTable": "-"
                 },
                 {
                     "fieldTitle": "Patient Account Number",
@@ -1013,7 +1013,7 @@
                     "dataType": "IS",
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
-                    "fieldTable": "0189"
+                    "fieldTable": "-"
                 },
                 {
                     "fieldTitle": "Birth Place",
@@ -1041,21 +1041,21 @@
                     "dataType": "IS",
                     "fieldOptionality": "O",
                     "fieldRepeteability": "Y",
-                    "fieldTable": "0171"
+                    "fieldTable": "-"
                 },
                 {
                     "fieldTitle": "Veterans Military Status",
                     "dataType": "CE",
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
-                    "fieldTable": "0172"
+                    "fieldTable": "-"
                 },
                 {
                     "fieldTitle": "Nationality Code",
                     "dataType": "CE",
                     "fieldOptionality": "O",
                     "fieldRepeteability": "N",
-                    "fieldTable": "0212"
+                    "fieldTable": "-"
                 },
                 {
                     "fieldTitle": "Patient Death Date and Time",
