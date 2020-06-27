@@ -81,8 +81,6 @@ namespace Parser
 
         [JsonProperty("description")]
         public String description;
-
-
     }
 
 
@@ -93,6 +91,9 @@ namespace Parser
         public static List<HL7_Field> segments;
         public static List<String> receivedMessageSegments;
         public static List<HL7_Table> tables;
+        public static bool messageAccepted;
+        public static String errorMessage;
+
         static void Main(string[] args)
         {
             initialize();
@@ -101,6 +102,7 @@ namespace Parser
 
         public static void initialize()
         {
+            messageAccepted = true;
             segments = new List<HL7_Field>();
             receivedMessageSegments = new List<String>();
             loadJSON();
@@ -145,6 +147,8 @@ namespace Parser
             String messageType = mshSections[8];
 
             checkMessageSintaxStructure(messageType);
+            generateAckMessage(mshSections);
+
         }
 
         public static void checkMessageSintaxStructure(String messageType)
@@ -158,7 +162,9 @@ namespace Parser
                     !receivedMessageSegments.Contains(messageTypeStructure[i].segmentTitle))
                 {                    
                     Console.WriteLine("---ERROR---");
-                    Console.WriteLine("El mensaje enviado no tiene el Segmento Obligatorio: " + messageTypeStructure[i].segmentTitle);
+                    errorMessage = "El mensaje enviado no tiene el Segmento Obligatorio: " + messageTypeStructure[i].segmentTitle;
+                    Console.WriteLine(errorMessage);
+                    messageAccepted = false;
                     return;
                 }
 
@@ -166,7 +172,9 @@ namespace Parser
                    receivedMessageSegments.FindAll(x => x == messageTypeStructure[i].segmentTitle).Count > 1)
                 {
                     Console.WriteLine("---ERROR---");
-                    Console.WriteLine("El segmento " + messageTypeStructure[i].segmentTitle+ " no puede ser repetido en este tipo de mensaje");
+                    errorMessage = "El segmento " + messageTypeStructure[i].segmentTitle + " no puede ser repetido en este tipo de mensaje";
+                    Console.WriteLine(errorMessage);
+                    messageAccepted = false;
                     return;
                 }
                         
@@ -199,34 +207,65 @@ namespace Parser
             if (messageIndex != receivedMessageSegments.Count - 1)
             {
                 Console.WriteLine("---ERROR---");
-                Console.WriteLine("El orden de los segmentos del mensaje: " + messageType + " es INCORRECTO o existe un segmento que NO PERTENCE a esta estructura");
+                errorMessage = "El orden de los segmentos del mensaje: " + messageType + " es INCORRECTO o existe un segmento que NO PERTENCE a esta estructura";
+                Console.WriteLine(errorMessage);
+                messageAccepted = false;
                 return;
             }
             else
                 Console.WriteLine("El orden de los segmentos es correcto");      
         }
 
-        public static void checkFieldsValues(String fieldTitle, List<HL7_Field_Parts> fields, String[] fieldSections)
+        public static void checkFieldsValues(String segmentTitle, List<HL7_Field_Parts> fields, String[] fieldSections)
         {
             for(int i = 0; i < fieldSections.Length-1; i++)
             {
             
                 if(fields[i].fieldOptionality == "R" && fieldSections[i+1] == "")
                 {
-                    Console.WriteLine("El segmento \"" + fields[i].fieldTitle+"\" es REQUERIDO y esta vacio");
+                    Console.WriteLine("---ERROR---");
+                    errorMessage = "El segmento \"" + fields[i].fieldTitle + "\" es REQUERIDO y esta vacio";
+                    Console.WriteLine(errorMessage);
+                    messageAccepted = false;
                     break;
                 }
 
-                if(fields[i].fieldTable!= "-")
-                    Console.WriteLine(fieldTitle + "-" + (i + 1) + ":" + fields[i].fieldTitle + ":" + fieldSections[i + 1]);
+                if (fields[i].fieldTable != "-" && !tableContainsValue(getTableIndex(fields[i].fieldTable), fieldSections[i + 1]))
+                {
+                    Console.WriteLine("---ERROR---");
+                    errorMessage = "The value inserted for field: \"" + fields[i].fieldTitle + "\" is invalid";
+                    Console.WriteLine(errorMessage);
+                    messageAccepted = false;
+                    break;
+                }
 
 
                 if (fieldSections[i + 1].Trim() != "") ;
-                    //Console.WriteLine(fieldTitle + "-" + (i+1)+ ":"+fields[i].fieldTitle+":"+ fieldSections[i+1]);
-              
+                    Console.WriteLine(segmentTitle + "-" + (i+1)+ ":"+fields[i].fieldTitle+":"+ fieldSections[i+1]);     
             }
 
         }
+
+        public static int getTableIndex(String tableTitle)
+        {
+            for(int i =0; i < tables.Count; i++)
+            {
+                if (tables[i].tableTitle == tableTitle)
+                    return i;
+            }
+            return -1;
+        }
+
+        public static bool tableContainsValue(int tableIndex, String fieldValue)
+        {
+            for(int i = 0; i < tables[tableIndex].tableValues.Count; i++)
+            {
+                if (tables[tableIndex].tableValues[i].value == fieldValue)
+                    return true;
+            }
+            return false;
+        }
+
         public static int getMessageTypeIndex(String messageType)
         {
             for(int i = 0; i<HL7Instance.messageTypes.Count; i++)
@@ -258,6 +297,24 @@ namespace Parser
                     return i;
             }
             return -1;
+        }
+
+        public static void generateAckMessage(String [] mshSections)
+        {
+            String msg = "MSH|" + mshSections[1] + "|" + mshSections[4] + "|" + mshSections[5] + "|" + mshSections[2] + "|" + mshSections[3];
+            msg += "|" + DateTime.Now.ToString("yyyyMMddHHmm").Trim() + "||" + "ACK|" + mshSections[9] + "|" + mshSections[10] + "|" + "2.3" + "\n";
+
+            if (messageAccepted)
+            {
+                msg += "MSA|" + "AA|" + mshSections[9] + "|" + "Message Accepted" + "||||";
+                Console.WriteLine("ss"+errorMessage);
+            }
+            else
+                msg += "MSA|" + "AE|" + mshSections[9] + "|" + errorMessage + "||||";
+
+
+            Console.WriteLine(msg);
+
         }
     }
 }
